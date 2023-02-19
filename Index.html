@@ -1,15 +1,24 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Tela de Login e Cadastro </title>
+    <title>Login&Cadastro</title>
 
-    <style href="style.css" type="text/css" rel="stylesheet"></style>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="arquivo.js"></script>
   </head>
   <body>
+    
     <div class="container">
-      <h1 class="Titulo">Login e Cadastro</h1>
+      <h1 class="Titulo"> 
+        <a href="" class="ativacao"> Login </a>
+        / 
+        <a href="" class="ativacao"> Cadastro </a>
+      </h1>
+
+<!--LOGIN-->       
       <div class="login-form active-form">
         <form>
+          
           <input
             type="text"
             name="email"
@@ -24,11 +33,17 @@
             class="input-field"
             required
           />
+          
           <div id="erro"></div>
           <div id="sucesso"></div>
+          
           <input type="submit" value="Login" class="btn" />
+          
         </form>
       </div>
+
+
+<!--CADASTRO-->        
       <div class="cadastro-form">
         <form>
           <input
@@ -58,5 +73,6 @@
         </form>
       </div>
     </div>
+    
   </body>
 </html>
