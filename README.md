@@ -1,2 +1,2 @@
 # Tela_Login_responsivo
-Uma simples tela de login com 2 campos de gmail e senha
+Uma tela de login e cadastro com responsividade e sistema de visibilidade
