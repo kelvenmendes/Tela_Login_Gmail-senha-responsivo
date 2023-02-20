@@ -1,24 +1,30 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #fafafa;
 }
 
 /*TÍTULOS*/
 h1 {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 500;
+  color: #545454;
+  cursor: default;
 }
 
 .ativacao{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-decoration: none;
-  color: slategray;
   border: none;
+  background-color: transparent;
+  font-size: 40px;
+  font-weight: 500;
+  color: #545454;
+  cursor: pointer;
 }
 
-.titulo{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 40px;
+hr{
+  width: 50%;
 }
 
 
@@ -26,7 +32,7 @@ h1 {
 .container{
   position: relative;
   text-align: center;
-  top: 30%;
+  top: 20%;
 }
 
 
